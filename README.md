@@ -386,12 +386,21 @@ a) CT= 1/((1/1uF+1/2.2uF)= 0.69uF
 
 b) CT= 1/(1/100pF+1/560pf+1/390pf)= 69.7 pF
 
-
-
+c) 1/((1/10uF+1/4.7uF+1/47uF+1/22uF))=2.6uF 
 
 24. La carga total guardada por los capacitores en serie de la figura 12-70 es de 10 uC. Determine el voltaje entre las terminales de cada capacitor.
 
 ![image](https://user-images.githubusercontent.com/116771507/212581791-26144926-fdad-4ee5-b5fc-1839d290cf2b.png)
+
+QT=Q1=Q2=Q3=Q4=10uC
+
+V1= 10uC/4.7uF=2.13V
+
+V2= 10uC/1uF=10V
+
+V3= 10uC/2.2uF=4.55V
+
+V4= 10uC/10uF=1V
 
 SECCIÓN 12–4 Capacitores en paralelo
 
@@ -399,15 +408,41 @@ SECCIÓN 12–4 Capacitores en paralelo
 
 ![image](https://user-images.githubusercontent.com/116771507/212581833-6419818b-f802-4f65-b174-1df00d6304e6.png)
 
+a) CT= 4pF+10pF+1000pF= 1057 pF
+
+b) CT= 0.01uF+0.01uF+0.001uF+0.01uF= 0.121 uF
+
 28. ¿Cuál es el voltaje entre los nodos A y B en cada circuito de la figura 12-72?
 
 ![image](https://user-images.githubusercontent.com/116771507/212581896-d1e3a0a9-70e0-4686-87ad-2b8009e483da.png)
+
+a) El voltaje en un capacitor paralelo es igual al voltaje de la fuente de voltaje es: VAB=5V
+
+b) El voltaje en un capacitos paralelo es ifual al voltaje de la fuente, el voltaje es: VAB=10V
+
+c) El voltaje en un capacitos paralelo es ifual al voltaje de la fuente, el voltaje es: VAB=10V
 
 SECCIÓN 12–5 Capacitores en circuitos de cd
 
 30. Determine la constante de tiempo para cada una de las combinaciones en serie:
 
 ![image](https://user-images.githubusercontent.com/116771507/212581946-4d7291a1-f0df-40ae-ad36-d73e9fdcc97a.png)
+
+a) R=100Ω, C=1uF
+
+t= 100Ω x 1 uf= 100us
+
+b)R=10MΩ, C=47pf
+
+t= 100MΩ x 47 pf= 470us
+
+c)R=4.7 MΩ, C=0.0047uf
+
+t= 4.7 MΩ x 0.0047uf= 22.1us
+
+d)R=1.5MΩ, C=0.01 uf
+
+t= 1.5MΩ x 0.01 uf= 15ms
 
 32. En el circuito de la figura 12-74, inicialmente el capacitor está descargado. Determine el voltaje presente en el capacitor en los instantes posteriores al cierre del interruptor:
 a)10us 
