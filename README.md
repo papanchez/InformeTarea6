@@ -25,36 +25,53 @@ OBJETIVOS ESPECÍFICOS:
 SECCIÓN 11–1 La forma de onda sinusoidal
 
 2. Calcule el periodo de cada uno de los siguientes valores de frecuencia:
-(a) 1 Hz 
 
-(b) 60 Hz 
+T= 1/f
 
-(c) 500 Hz 
+(a)1Hz=> T=1/1Hz= 1s 
 
-(d) 1 kHz 
+(b) 60 Hz => T=1/60Hz= 16.7 ms
 
-(e) 200 kHz 
+(c) 500 Hz => T=1/500Hz= 2ms 
 
-(f) 5 MHz
+(d) 1 kHz => T=1/1kHz= 1ms
+
+(e) 200 kHz => T=1/200kHz= 5 us
+
+(f) 5 MHz => T=1/5MHz= 200ns
 
 4. Una onda seno tiene frecuencia de 50 kHz. ¿Cuántos ciclos completa en 10 ms?
+
+T= 1/50kHZ= 0.02ms
+
+10ms/ 0.02ms= 500 ciclos por 10 ms
 
 SECCIÓN 11–2 Fuentes de voltaje sinusoidal
 
 6. Cierto generador de cuatro polos gira a 3600 rpm. ¿Cuál es la frecuencia del voltaje que produce?
 
+f= 4 x 3600rpm= 14400Hz
+
 SECCIÓN 11–3 Valores sinusoidales de voltaje y corriente
 
 8. El valor pico de una onda seno es de 12 V. Determine los siguientes valores:
-(a) rms 
+(a) rms=> Vrms= 0.707Vp= 0.707 x 12V= 8.484V
 
-(b) pico a pico 
+(b) pico a pico=> Vpp= 2Vp= 2 x 12V = 24V
 
-(c) promedio 
+(c) promedio=> 0.637Vp= 0.637 x 12V= 7.644V
 
 10. Para la onda seno de la figura 11-77, determine los valores pico, pico a pico, rms y promedio.
 
 ![image](https://user-images.githubusercontent.com/116771507/212580613-0b2df606-38fe-4a68-a85d-990284bee8b9.png)
+
+Vp= 25V
+
+Vpp= 2Vp= 2 x 25V= 50V
+
+Vrms= 0.707Vp= 0.707 x 25V= 17.7 V
+
+Vprom= 0.637Vp= 0.637 x  25V= 15.9V
 
 SECCIÓN 11–4 Medición angular de una onda seno
 
@@ -62,19 +79,21 @@ SECCIÓN 11–4 Medición angular de una onda seno
 
 ![image](https://user-images.githubusercontent.com/116771507/212580644-d5ac5722-f466-43e6-8f43-cebc42f59da7.png)
 
-a)
+a)π/8 rad x 180°/πrad= 22.5°
 
-b)
+b)π/3 rad x 180°/πrad= 60°
 
-c)
+c)π/2 rad x 180°/πrad=90°
 
-d)
+d)3π/5 rad x 180°/πrad= 108°
 
-e)
+e)6π/5 rad x 180°/πrad= 216°
 
-f)
+f)1.8πrad x 180°/πrad= 324°
 
 14. Una onda seno tiene un pico positivo en 75° y otro con un pico positivo en 100°. ¿Cuánto se desfasa cada onda seno con respecto a la referencia de 0°? ¿Cuál es el ángulo de fase entre estas ondas?
+
+Respecto a la referencia 0°: la onda sinuoidal con pico de 75° se desplaza 15° en adelante y la onda sinuidal con pico 100° se desplaza 10° en retraso. El ángulo de fase entre las ondas es θ=100°-75°=25°
 
 SECCIÓN 11–5 La fórmula de la onda seno
 
@@ -83,21 +102,25 @@ SECCIÓN 11–5 La fórmula de la onda seno
 
 ![image](https://user-images.githubusercontent.com/116771507/212580714-73af2b17-d22f-464b-824f-624165f9f5b7.png)
 
-a)
+Vp= 1.414Vrms= 1.414 x 20V= 28.28V
 
-b)
+v= Vpsinθ
 
-c)
+a)15° => v=28.28V x sin 15° = 7.32V
 
-d)
+b)33° => v=28.28V x sin33°)= 15.4V
 
-e)
+c)50°=> v=28.28V x sin50°= 21.7V
 
-f)
+d)110=> v=28.28V x sin110°= 26.6V
 
-g)
+e)70=> v=28.28V x sin70°= 26.6V
 
-h)
+f)145=> v=28.28V x sin145°= 16.2V
+
+g)250° => v=28.28V x sin250°= -26.6V
+
+h)325° => v=28.28V x sin325°= -16.2V
 
 18. Para una onda seno referida a 0° con valor rms de 6.37 V, determine el valor instantáneo en cada uno de los puntos siguientes:
 
