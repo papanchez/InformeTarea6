@@ -286,15 +286,33 @@ f= 1/T= 1/40us=25KHz <= Frecuenta fundamental
 
 ![image](https://user-images.githubusercontent.com/116771507/212581242-4759eab7-b2c4-4262-bb68-134f448deea4.png)
 
+Entrada:
+
+Vp(entrada) = 1div x (5v/div)=5v
+
+T(entrada)= 2div x (0.1 ms/div)=200us
+
+f(entrada)= 1/200us= 5kHz
+
+Salida:
+
+RT= 560Ω+(470Ω||470Ω)= 883Ω
+
+Vp(salida) = 470Ω/(470+560)Ω x (323Ω/883Ω) Vp(entrada)
+
+Vp(salida) = 470Ω/(470+560)Ω x (323Ω/883Ω) x 5v= 835mV
+
+f(salida)= 1/200us= 5kHz
+
 SECCIÓN 12–1 El capacitor básico
 
 2. Transforme los siguientes valores de microfarads a picofarads:
 
-a)0,1 uF
+a)0,1 uF x 10^6(pF/uF)= 100000pF
 
-b)0,0025 uF
+b)0,0025 uF x 10^6(pF/uF)=2500 pF
 
-c)4,7 uF
+c)4,7 uF x  10^6(pF/uF)= 4700000 pF
 
 4. Transforme los siguientes valores de farads a microfarads;
 
