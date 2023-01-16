@@ -150,7 +150,7 @@ v=9V x sin180°= 0V
 
 f)3π/2rad x 180°/πrad= 270°
 
-v=9V x sin 270°= -9V
+v= 9V x sin 270°= -9V
 
 g)2πrad x 180°/πrad= 360°
 
@@ -176,7 +176,7 @@ SECCIÓN 11–6 Introducción a los fasores
 
 ![image](https://user-images.githubusercontent.com/116771507/212580873-c7dd361d-a001-4c79-86e7-109401173992.png)
 
--------------------------------------------------------------------
+-----------------------------------------------------------------
 
 24. Determine la frecuencia para cada velocidad angular:
 
