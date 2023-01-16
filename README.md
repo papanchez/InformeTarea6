@@ -445,35 +445,64 @@ d)R=1.5MΩ, C=0.01 uf
 t= 1.5MΩ x 0.01 uf= 15ms
 
 32. En el circuito de la figura 12-74, inicialmente el capacitor está descargado. Determine el voltaje presente en el capacitor en los instantes posteriores al cierre del interruptor:
-a)10us 
+
+t=RC => t=10kΩ x 0.001uF? 10uS
+
+a)10us
+
+v= 15V(1-e^(-10us/10us))=9.48V
 
 b)20 us 
 
+v= 15V(1-e^(-20us/10us))=13V
+
 c)30 us 
+
+v= 15V(1-e^(-30us/10us))=14.3V
 
 d)40 us 
 
+v= 15V(1-e^(-40us/10us))=14.7 V
+
 e)50 us
+
+v= 15V(1-e^(-50us/10us))=14.9V
 
 34. Repita el problema 32 con los siguientes intervalos de tiempo:
 
 a)2 us
 
+v= 15V(1-e^(-2us/10us))=2.72V
+
 b)5 us
 
+v= 15V(1-e^(-5us/10us))= 5.90V
+
 c)15 us
+
+v= 15V(1-e^(-15us/10us))=11.65V
 
 36. Derive la fórmula para determinar el tiempo en cualquier punto de una curva de voltaje exponencial creciente. Use esta fórmula para calcular el tiempo en el cual el voltaje que aparece en la figura 12-76 llega a 6 V después de cerrar el interruptor. 
 
 ![image](https://user-images.githubusercontent.com/116771507/212582133-0e8a325d-6d9c-4197-ba1f-d188b46fd867.png)
 
+V=Vi x e^(-t/Rc)
+
+derivada: t=-RCln(V/Vi)
+
+t=-(2.2kΩ)(0.01uF) x ln(6V/12V)= 15.2 us
+
 38. ¿Cuánto tiempo requiere el capacitor C para descargarse a 3 V en la figura 12-75?
 
 ![image](https://user-images.githubusercontent.com/116771507/212582176-48db9578-aa4e-41a7-9e5c-6fb19c2a528b.png)
 
+t=-(1kΩ)(1.15uF) x ln(3V/25V)= 3.18ms
+
 40. En la figura 12-78, inicialmente el capacitor está descargado. En el instante t= 10 us después de que se cierra el interruptor, el voltaje instantáneo en el capacitor es de 7.2 V. Determine el valor de R.
 
 ![image](https://user-images.githubusercontent.com/116771507/212582225-dbf68b0c-0dd9-4e72-877e-06bc319b7378.png)
+
+R=-t/(C x ln(1-Vc/Vf)= -10us/(1000 pf x ln(1-7.2V/10V)= 7.86kΩ
 
 SECCIÓN 12–6 Capacitores en circuitos de ca
 
@@ -481,14 +510,95 @@ SECCIÓN 12–6 Capacitores en circuitos de ca
 
 ![image](https://user-images.githubusercontent.com/116771507/212582272-a27010a8-f5f5-412a-a8c2-7ba84bea6664.png)
 
+a) XCT= 1/2πfC= 1/2π(1KHz)(0.047uF)=3.39KΩ
+
+b) C= 10uF+15uF=25uF
+
+XCT= 1/2πfC= 1/2π(1KHz)(25uF)=6.37KΩ
+
+c)CT= 1/(1/1uF+1/1uF)=0.5uF
+
+XCT= 1/2πfC= 1/2π(60Hz)(0.5uF)=5.31KΩ
+
 44. En cada circuito de la figura 12-80, ¿qué frecuencia se requiere para producir una XC de 100 Ω? ¿Una
 Xc de 1 kΩ?
 
+a)Para XC= 1000Ω
+
+f= 1/2π(100KΩ)(0.047uF)=33.86kHz
+
+Para Xc= 1KΩ
+
+f=1/2π(1KΩ)(0.047uF)=3.386kHz
+
+b)Para Xc= 100Ω
+
+f=1/2π(100Ω)(25uF)= 63.7Hz
+
+Para Xc= 1kΩ
+
+f=1/2π(1kΩ)(25uF)6.37kHz 
+
+c) Para Xc=100Ω
+
+f=1/2π(100Ω)(0.5uF)= 3.18kHz
+
+Para 1kΩ
+
+f=1/2π(1kΩ)(0.5uF)= 318Hz
+
 46. Se aplica un voltaje de 10 kHz a un capacitor de 0.0047 uF, y se mide una corriente rms de 1 mA. ¿Cuál es el valor del voltaje?
+
+Xc= 1/2π(10kHz)(0.047uF)= 3.39kΩ
+
+Vrms= 1mA x 3.39kΩ= 3.39V
 
 48. Determine el voltaje de ca entre las terminales de cada capacitor y la corriente en cada rama del circuito de la figura 12-81.
 
 ![image](https://user-images.githubusercontent.com/116771507/212582399-b7ce9e88-5092-41c2-bc9f-7b1744eb74b7.png)
+
+C5-6= 1/((1/0.01uF)+(1/0.015uF))=0.006uF
+
+C4-5-6= 0.047uF+0.006uF=0.053uF
+
+C3-4-5-6= 1/(1/0.015uF+1/0.053uF)=0.01169uF
+
+C2-3-4-5-6=0.022+0.01169= 0.03369uF
+
+CT= 1/(1/0.01uF+1/0.03369uF)= 0.00771uF
+
+* C1) XCT= 68.8kΩ     |   IC1= 10V/68.8kΩ=145uA   |     VC1= (0.00771uF/0.01uF)10V= 7.71V
+
+* C2) Vc2= 10V-7.7V=2.29V
+
+Xc2= 24.1kΩ
+
+Ic2= 2.29V/24.1kΩ= 95uA
+
+* C3) Vc3= (0.01183uF/0.015uF)2.29V= 1.78V
+
+Xc3= 35.4kΩ
+
+Ic3= 1.78V/35.4kΩ= 50.4uA
+
+* C4) Vc4= 2.29V-1.78V=505mV
+
+Xc4=11.3kΩ
+
+Ic4= 505mV/11.3kΩ= 44.7uA
+
+* C5) C5=(0.006uF/0.01uF)505mV= 303mV
+
+Xc5= 53.1kΩ
+
+Ic5= 303mV/53.1kΩ=5.71uA
+
+* C6) Vc6= 505mV-303mV= 202mV
+
+Xc6= 53.1kΩ
+
+Ic6= 303mV/53.1kΩ=5.71uA
+
 
 50. Si en la figura 12-81 C4 se abriera, determine los voltajes que se medirían entre las terminales de los otros capacitores. 
 
