@@ -604,18 +604,44 @@ Ic6= 303mV/53.1kΩ=5.71uA
 
 ![image](https://user-images.githubusercontent.com/116771507/212582442-590d12be-9af3-4dc3-806a-d85f229d431d.png)
 
+C3-5-6= 1/(1/0.015uF+1/0.01uF+1/0.015uF)= 0.0043uF
+
+C2-3-5-6= 0.022uF+0.0043uF=0.0263uF
+
+CT= 1/(1/0.01uF+1/0.0263uF)= 0.00725uF
+
+Vc1= (0.00725uF/0.01uF)10V= 7.25V
+
+Vc2= (0.00725uF/0.0263uF)10V= 2.76V
+
+Vc3= (0.0043uF/0.015uF)2.76V=0.79V
+
+Vc5= (0.00435uF/0.01uF)2.76V=1.19V
+
+Vc6= (0.0043uF/0.015uF)2.76V=..79V
+
+Vc4= 1.19V+0.79V= 1.98V
+
 SECCIÓN 12–7 Aplicaciones de los capacitores
 
-
 52. Idealmente, ¿cuál deberá ser la reactancia de un capacitor de desvío para eliminar un voltaje de ca de 10 kHz en un punto dado en un circuito amplificador?
+
+Para proporcionar un corto a tierra de ca es necesario que sea de 0Ω
 
 SECCIÓN 12–8 Circuitos de capacitor conmutado
 
 54. En un circuito de capacitor conmutado, el capacitor de 100 pF se conmuta a una frecuencia de 8 kHz. ¿Qué valor de resistor se emula?
 
+R= 1/fC= 1/(8kHz x 100pF)=1250kΩ
+
+4. VIDEO
+
+
+5. CONCLUSIONES
 
 
 
+6. BIBLIOGRAFÍA
 
 
 
