@@ -236,23 +236,51 @@ Vp=VCD= 4.242V
 
 ![image](https://user-images.githubusercontent.com/116771507/212581090-24db5bf5-c30c-47b0-b7ba-f23bd6e42705.png)
 
+
+Imax= Vmax/RT
+
+Imax= (200C+150V)/100Ω= 3.5A
+
+VCD= (RL/RT)VCD
+
+VCD= (100Ω/100Ω) 200V= 200V
+
+PR= Imax x VCD= 3.5A x 200V= 700W
 SECCIÓN 11–9 Formas de onda no sinusoidales
 
 34. La frecuencia de repetición de una forma de onda pulsante es de 2 kHz, y el ancho de pulso es de 1 us. ¿Cuál es el ciclo de trabajo en porcentaje?
+
+Ciclo de trabajo de porcentaje= (tw/T) x 100%
+
+Ciclo de trabajo de porcentaje= (1us/500us) x 100%= 0.2%
 
 36. Determine el ciclo de trabajo de cada una de las formas de onda mostradas en la figura 11-86.
 
 ![image](https://user-images.githubusercontent.com/116771507/212581147-52aca60f-74db-4d83-8145-e517cd030f29.png)
 
+a) ciclo de trabajo en porcentaje= (1us/4us) x 100%=25%
+
+b) Ciclo de trabajo de porcentaje= (20ms/30ms) x 100%= 66.7%
+
 38. ¿Cuál es la frecuencia de cada una de las formas de onda mostradas en la figura 11-86?
 
 ![image](https://user-images.githubusercontent.com/116771507/212581173-36f4c270-c612-424d-9b12-776694186a11.png)
+
+a) f=1/T= 1/4us=250KHz
+
+b)f= 1/T= 1/30ms= 33.3 Hz
 
 40. Una forma de onda no sinusoidal llamada escalonada se muestra en la figura 11-88. Determine su valor promedio.
 
 ![image](https://user-images.githubusercontent.com/116771507/212581194-883ae57c-05bf-4af0-98c1-aa580a0f496a.png)
 
+Valor promedio= área bajo la curva/periodo
+
+VAVG= ((0+1+2+3+5+6)V x 1ms)/7ms= (21V*1ms)/7ms= 3V
+
 42. ¿Cuál es la frecuencia fundamental de la onda cuadrada mencionada en el problema 41?
+
+f= 1/T= 1/40us=25KHz <= Frecuenta fundamental
 
 44. Con base en los ajustes del instrumento y en un examen de la pantalla del osciloscopio y de la tarjeta prototipo mostrados en la figura 11-90, determine la frecuencia y el valor pico de las señales de entrada y salida. La forma de onda mostrada es el canal 1. Trace la forma de onda del canal 2 como aparecería en el osciloscopio con los ajustes indicados.
 
