@@ -382,6 +382,13 @@ CT= 1000pF/5= 200 pF
 
 ![image](https://user-images.githubusercontent.com/116771507/212581754-d6c549ee-ad99-44f3-a4bb-9a521d292e4f.png)
 
+a) CT= 1/((1/1uF+1/2.2uF)= 0.69uF
+
+b) CT= 1/(1/100pF+1/560pf+1/390pf)= 69.7 pF
+
+
+
+
 24. La carga total guardada por los capacitores en serie de la figura 12-70 es de 10 uC. Determine el voltaje entre las terminales de cada capacitor.
 
 ![image](https://user-images.githubusercontent.com/116771507/212581791-26144926-fdad-4ee5-b5fc-1839d290cf2b.png)
