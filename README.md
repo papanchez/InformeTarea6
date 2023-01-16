@@ -316,36 +316,67 @@ c)4,7 uF x  10^6(pF/uF)= 4700000 pF
 
 4. Transforme los siguientes valores de farads a microfarads;
 
-(a) 0.0000001 F 
+(a) 0.0000001 F x 10^6uF/F= 0.1 uF
 
-(b) 0.0022 F 
+(b) 0.0022 F x 10^6uF/F= 2200 uF 
 
-(c) 0.0000000015 F
+(c) 0.0000000015 F x 10^6uF/F=0.15uF
 
 6. ¿Qué tamaño de capacitor es capaz de guardar 10 mJ de energía con 100 V entre sus placas?
 
+W= C=2W/V^2= (2 x 10mJ)/(100V)^2 = 20 mJ/10000V^2= 2uF
+
 8. Un capacitor de mica tiene placas cuadradas de 3.8 cm por lado con una separación entre ellas de 2.5 mils. ¿Cuál es la capacitancia?
+
+C= 3.8/2.5 = 1.52F
 
 10. Un estudiante desea construir un capacitor de 1 F con dos placas cuadradas para un proyecto de feria de las ciencias. Planea utilizar un dieléctrico de papel (Er = 2.5) de 8 x 10^-5 m de espesor. La feria de las ciencias se va a llevar a cabo en el “Astrodomo”. ¿Cabrá su capacitor en el “Astrodomo”? ¿De qué tamaño serían las placas si pudieran ser construidas?
 
+A= Cd/ Er(8.85 x 10^-12)
+
+A= (1 F (8 X 10^-5))/(2.5 x 8.85 x 10^-12)= 3.6 x 10^6 m^2
+
+I= √A = √3.6 x 10^6= 1.9 x 10^3 m
 
 12. A temperatura ambiente (25°C), se especifica que cierto capacitor sea de 1000 pF. El capacitor tiene coeficiente de temperatura negativo de 200 ppm/°C. ¿Cuál es su capacitancia a 75°C?
+
+ΔT= 25°C
+
+25°C(500ppm)=12500ppm
+
+(1 x 10^6 pF/uF)(0.001uF)= 1000pF
+
+ΔC= (1000/1x10^6)(12500ppm)= 12.5pF
 
 SECCIÓN 12–2 Tipos de capacitores
 
 14. En la construcción de un capacitor de hojas de mica y laminillas apiladas, ¿cómo se incrementa el área de placas?
 
+Eñ +area de la placa aumenta, por lo que el número de placas y materiales deléctricos también lo hacen.
+
 16. Muestre cómo conectar un capacitor electrolítico de un lado a otro de R2 entre los puntos A y B en la figura 12-66.
 
 ![image](https://user-images.githubusercontent.com/116771507/212581667-528271c8-c12f-4d23-a333-b8f89973a8e5.png)
+
+----------------------------------------------------------
 
 18. Identifique las partes del capacitor de disco de cerámica mostrado en la vista de corte de la figura 12-67
 
 ![image](https://user-images.githubusercontent.com/116771507/212581695-58e58ad0-c384-4143-a220-c620e829d697.png)
 
+a) Encapsulación
+
+b) Dieléctrico (Disco de cerámica)
+
+c) Placa (Disco de metal)
+
+d) Cable conductores
+
 SECCIÓN 12–3 Capacitores en serie
 
 20. Cinco capacitores de 1000 pF están en serie. ¿Cuál es la capacitancia total?
+
+CT= 1000pF/5= 200 pF
 
 22. Para cada circuito de la figura 12-69, determine el voltaje entre las terminales de cada capacitor
 
