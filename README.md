@@ -158,21 +158,37 @@ v= 9v x sin 360°= 0V
 
 20. Repita el problema 19 para el caso en que la onda seno A va 30° delante de la onda seno B.
 
+v= 15V x sin (30°+30°)=13V
+
+v= 15V x sin (45°+30°)=14.5V
+
+v= 15V x sin (90°+30°)=13V
+
+v= 15V x sin (180°+30°)=-7.5V
+
+v= 15V x sin (200°+30°)=-11.5V
+
+v= 15V x sin (300°+30°)=-7.5V
+
 SECCIÓN 11–6 Introducción a los fasores
 
 22. Trace un diagrama fasorial para representar las ondas seno de la figura 11-78 con respecto a la referencia de 0°.
 
 ![image](https://user-images.githubusercontent.com/116771507/212580873-c7dd361d-a001-4c79-86e7-109401173992.png)
 
+-------------------------------------------------------------------
+
 24. Determine la frecuencia para cada velocidad angular:
 
-(a) 60 rad/s 
+f=w/2π
 
-(b) 360 rad/s 
+(a) 60 rad/s => f= (60rad/s)/2π = 9.55Hz
 
-(c) 2 rad/s 
+(b) 360 rad/s => f= (360rad/s)/2π = 57.3Hz
 
-(d) 1256 rad/s
+(c) 2 rad/s => f= (2rad/s)/2π = 0.32Hz
+
+(d) 1256 rad/s=> f= (1256rad/s)/2π = 200Hz
 
 SECCIÓN 11–7 Análisis de circuitos de ca
 
@@ -180,23 +196,41 @@ SECCIÓN 11–7 Análisis de circuitos de ca
 
 ![image](https://user-images.githubusercontent.com/116771507/212580937-bea1b52e-84d3-40ef-9667-806c3ad64ded.png)
 
-a)Irms
+a)Irms => 0.707(Vp/R)=0.707(10V/1kΩ)=7.07mA
 
-b)Iprom
+b)Iprom=> 0A durante un ciclo completo
 
-c)Ip
+c)Ip=V/R= 10v/1KΩ= 1mA
 
-d)Ipp
+d)Ipp= 2 x 10mA= 20mA
 
-e)i en el pico positivo
+e)i en el pico positivo= 10mA
 
 28. Determine el voltaje rms entre los extremos de R3 en la figura 11-82.
 
 ![image](https://user-images.githubusercontent.com/116771507/212581038-39e84cc0-5266-426f-9b86-0f024b40e92a.png)
 
+Ipp= Vpp/R1= 16V/1kΩ= 16mA
+
+Irms= 0.707(Ipp/2)=0.707(16mA/2)= 5.66mA
+
+VR4= 5.66mA=560Ω= 3.17Vrms
+
+Usando LVL oara encontrar VR3
+
+VR1+VR2+VR3+VR4= Vs
+
+0.707 x 8V + 5V+VR3+3.17V= 0.707 x 30V
+
+VR3= 21.21v-5.66v-5V-3.17V= 7.38V
+
 SECCIÓN 11–8 Voltajes superpuestos de cd y de ca
 
 30. ¿Cuánto voltaje de cd se debe agregar a una onda seno de 3 V rms para hacer el voltaje resultante no alterno (valores negativos)?
+
+Vp= 1.414 x 3V= 4.242V
+
+Vp=VCD= 4.242V
 
 32. La figura 11-83 muestra una fuente de voltaje sinusoidal dispuesta en serie con una fuente de cd. Efectivamente, los dos voltajes están superpuestos. Determine la disipación de potencia en el resistor de carga.
 
