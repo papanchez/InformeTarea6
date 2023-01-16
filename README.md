@@ -126,19 +126,35 @@ h)325° => v=28.28V x sin325°= -16.2V
 
 ![image](https://user-images.githubusercontent.com/116771507/212580820-1094f7d1-ba11-4b32-9a5d-d8054950ba18.png)
 
-a)
+Vp= 1.414Vrms= 1.414 x 6.37V= 9V
 
-b)
+a)π/8rad x 180°/πrad= 22.5°
 
-c)
+v= 9V x sin22.5°= 3.44V 
 
-d)
+b)π/4rad x 180°/πrad= 45°
 
-e)
+v= 9V x 45°= 6.36V
 
-f)
+c)π/2rad x 180°/πrad= 90°
 
-g)
+v= 9V x sin90°= 9V
+
+d)3π/4rad x 180°/πrad=135°
+
+v= 9V x sin 135°=6.36V
+
+e)πrad x 180°/πrad=180°
+
+v=9V x sin180°= 0V
+
+f)3π/2rad x 180°/πrad= 270°
+
+v=9V x sin 270°= -9V
+
+g)2πrad x 180°/πrad= 360°
+
+v= 9v x sin 360°= 0V
 
 20. Repita el problema 19 para el caso en que la onda seno A va 30° delante de la onda seno B.
 
