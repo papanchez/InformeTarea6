@@ -172,12 +172,6 @@ v= 15V x sin (300°+30°)=-7.5V
 
 SECCIÓN 11–6 Introducción a los fasores
 
-22. Trace un diagrama fasorial para representar las ondas seno de la figura 11-78 con respecto a la referencia de 0°.
-
-![image](https://user-images.githubusercontent.com/116771507/212580873-c7dd361d-a001-4c79-86e7-109401173992.png)
-
------------------------------------------------------------------
-
 24. Determine la frecuencia para cada velocidad angular:
 
 f=w/2π
@@ -352,13 +346,7 @@ SECCIÓN 12–2 Tipos de capacitores
 
 14. En la construcción de un capacitor de hojas de mica y laminillas apiladas, ¿cómo se incrementa el área de placas?
 
-Eñ +area de la placa aumenta, por lo que el número de placas y materiales deléctricos también lo hacen.
-
-16. Muestre cómo conectar un capacitor electrolítico de un lado a otro de R2 entre los puntos A y B en la figura 12-66.
-
-![image](https://user-images.githubusercontent.com/116771507/212581667-528271c8-c12f-4d23-a333-b8f89973a8e5.png)
-
-----------------------------------------------------------
+El área de la placa aumenta, por lo que el número de placas y materiales deléctricos también lo hacen.
 
 18. Identifique las partes del capacitor de disco de cerámica mostrado en la vista de corte de la figura 12-67
 
@@ -636,6 +624,7 @@ R= 1/fC= 1/(8kHz x 100pF)=1250kΩ
 
 4. VIDEO
 
+https://youtube.com/watch?v=8zPRJiVf6DA&si=EnSIkaIECMiOmarE
 
 5. CONCLUSIONES
 
@@ -643,6 +632,7 @@ R= 1/fC= 1/(8kHz x 100pF)=1250kΩ
 
 6. BIBLIOGRAFÍA
 
+FLOYD, THOMAS L. Principios de circuitos eléctricos. Octava edición. PEARSON EDUCACIÓN, México, 2007.
 
 
 
