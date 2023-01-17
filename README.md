@@ -19,6 +19,25 @@ OBJETIVOS ESPECÍFICOS:
 
 2.MARCO CONCEPTUAL
 
+![image](https://user-images.githubusercontent.com/116771507/212789632-e9d7d862-9679-462a-bdc9-ede0eb0f19b7.png)
+
+![image](https://user-images.githubusercontent.com/116771507/212789657-c39103ae-5c94-4fb6-b407-e1d21eed5633.png)
+
+![image](https://user-images.githubusercontent.com/116771507/212789690-56803322-84ef-4868-aea8-fcd2b0fb7548.png)
+
+![image](https://user-images.githubusercontent.com/116771507/212789716-5d631c57-19d9-4d8e-8dc6-6e71b55caf63.png)
+
+![image](https://user-images.githubusercontent.com/116771507/212789741-ec2f177f-9aa0-4b51-8939-cc04aae33dd5.png)
+
+![image](https://user-images.githubusercontent.com/116771507/212789777-a25eaba2-1b11-4bab-8ca4-b95f887254a3.png)
+
+![image](https://user-images.githubusercontent.com/116771507/212789788-fc726d7f-90b9-49ab-9467-037b6d21ef74.png)
+
+![image](https://user-images.githubusercontent.com/116771507/212789811-584a5381-062b-4e04-a058-2734a9d08db3.png)
+
+![image](https://user-images.githubusercontent.com/116771507/212789829-3cf512b3-0612-41fe-a7fe-7e30855f43c0.png)
+
+
 
 3.RESOLUCIÓN DE EJERCICIOS
 
