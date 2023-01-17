@@ -12,9 +12,17 @@ PÁNCHEZ GUAMUSHIG PABLO ANDRES
 
 1.OBJETIVOS
 
-OBJETIVOS GENERALES:
+OBJETIVO GENERAL:
+
+-Aprender y comprender que el la corriente y voltaje alterno y los circuitos con capacitores, con el objetivo de desarrollar de manera eficaz los ejercicios plateados, además de reforzar los conociminetos adquiridos durante las clases.
 
 OBJETIVOS ESPECÍFICOS:
+
+-Entender e identificar las formas en las que se puede expresar una onda seno en función de su magnitus o de su voltajer o corriente.
+
+-Identificar las formas de onda no sinusoidales en corriente alterna y variable con el tiempo.
+
+-Reconocer los terminos dentro del tema de capacitancia, además de cada uno de las fórmulas respectivas, además de su comportamineto cuando se encuentra en serie o en paralelo.
 
 
 2.MARCO CONCEPTUAL
@@ -653,7 +661,7 @@ https://youtube.com/watch?v=8zPRJiVf6DA&si=EnSIkaIECMiOmarE
 
 5. CONCLUSIONES
 
-
+En conclusión, al realizar este informe se entendió el tema de ondas seno, pues se sabe que existen 5 formas de expresar el valor de una onda seno en función de su voltaje o corriente, estas formas son: el valor instantaneo, el valor pico, valor pico-pico, valor RMS y el valor promedio; además de las diferentes fomrulas que se pueden usar para realizar los respectivos cálculos. Por otro lado se comprendio mejor la definción de un capacitor la cual es basicamente que es un dispositivo electrónico que almacena energía en un campo eléctrico interno. Es un componente electrónico pasivo básico junto con resistencias e inductores, los diferentes tipo de capasitores existentes y la forma en la que este tippo de dispositios se comportan cuando están en serie o paralelo. Finalmente con ayuda de los nuevos conocimientos adquiridos y aquellos que reforzamos durante este informe se pudieron realizar los ejercicios de fomra correcta.
 
 6. BIBLIOGRAFÍA
 
