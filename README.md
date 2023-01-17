@@ -37,6 +37,12 @@ OBJETIVOS ESPECÍFICOS:
 
 ![image](https://user-images.githubusercontent.com/116771507/212789829-3cf512b3-0612-41fe-a7fe-7e30855f43c0.png)
 
+![image](https://user-images.githubusercontent.com/116771507/212789934-909cd815-5301-42de-b7e7-27c361489e4a.png)
+
+![image](https://user-images.githubusercontent.com/116771507/212789954-74c262bb-0a26-43c5-95dd-1baaa99caa99.png)
+
+
+
 
 
 3.RESOLUCIÓN DE EJERCICIOS
